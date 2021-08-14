@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.container {
+    border: 10px groove rgb(14, 8, 71);
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(17, 16, 16, 0.459), rgba(7, 5, 39, 0.445)), url('../../../base/IMG_20200315_143528_145.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    position: fixed;
+    top: -100px;
+    right: -100px;
+    width: 200px;
+    line-height: 200px;
+    font-size: 20px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(40, 3, 65, 0.671);
+}
+.menu a{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    text-decoration: none;
+    color: burlywood;
+}
+.menu a:hover{
+   text-shadow: 0 0 50px black;
+   color: chocolate;
+}
+.calc{
+width: calc(100% - 220px);
+}
+.input{
+    height: 100vh;
+    color: azure;
+    width: 220px;
+    float: right;
+    text-align: center;
+    padding: 100px 10px 0 ;
+    border-left: 10px groove rgba(14, 3, 82, 0.932);
+}
+.input p{
+    padding: 10px;
+    text-align: center;
+}
+.input input{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 2px 10px;
+    outline: none;
+}
+.input button {
+   margin: 20px 0  0;
+   padding: 10px 20px;
+   border-radius: 10px;
+   outline: none;
+   font-size: 20px;
+   font-weight: 900;
+   color: rgb(10, 2, 39);
+}
+.calc{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row{
+display: flex;
+flex-direction: row;
+}
+.col{
+    color: cornsilk;
+    margin: 3px;
+    border-radius: 20px;
+    border: 5px solid rgba(9, 12, 221, 0.692);
+
+width: 50px;
+height: 50px;
+}
+.col input{
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    text-align: center;
+    color: wheat;
+    
+}
